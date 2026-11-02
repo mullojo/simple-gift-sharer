@@ -246,6 +246,12 @@ package versions is not an audit or a guarantee of transitive code immutability.
 No offline mode is provided. Photos, other project data and other origins' purses
 are not involved.
 
+## Human value and voluntary support
+
+[Human value blocks](docs/HUMAN_VALUE_BLOCKS.md) recognize contributed human
+attention: approximately one hour and $100 per block toward voluntary support.
+Through v0.1.1: **4 VBs / $400**, provisionally estimated. Gifts are voluntary.
+
 ## Verification
 
 Node 22+ is used only for development tests; the browser app needs no Node install.
