@@ -1,0 +1,15 @@
+{
+  "name": "simple-gift-sharer",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "No-build, local-first Bitcoin gift sharing with temporary browser purses",
+  "license": "MIT"
+}

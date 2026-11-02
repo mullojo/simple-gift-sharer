@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+.cache/
+coverage/
+gift-sharer*.json
+testnet4-recipient-keys*.json
+
+# Local editor files, logs and credentials
+.vscode/
+.idea/
+*.log
+.env
+.env.*
+!.env.example
+
+# Keep exported keys and browser data outside the repository
+/recovery/
+/backups/
+/local-data/
+*.key
+*.pem
