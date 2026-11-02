@@ -36,3 +36,12 @@ require a runtime version bump.
 Contributions are provided under this repository's MIT license. Dependencies
 retain their own licenses. Report suspected vulnerabilities through the process
 in [SECURITY.md](SECURITY.md), without exposing private keys or recovery files.
+
+## Human value records
+
+Follow the [Human Value Blocks guide](https://github.com/mullojo/background-removal/blob/main/docs/HUMAN_VALUE_BLOCKS_GUIDE.md)
+when updating `docs/HUMAN_VALUE_BLOCKS.md`. Keep entries short and public-facing.
+Estimate a period's human contribution before distributing its blocks; preserve
+existing allocations and avoid counting AI runtime or overlapping work twice.
+Reconcile category/square counts, ledger arithmetic, evidence, review status,
+and the README summary. Ledger maintenance adds no blocks automatically.

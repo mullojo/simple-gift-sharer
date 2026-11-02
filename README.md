@@ -250,7 +250,8 @@ are not involved.
 
 [Human value blocks](docs/HUMAN_VALUE_BLOCKS.md) recognize contributed human
 attention: approximately one hour and $100 per block toward voluntary support.
-Through v0.1.1: **4 VBs / $400**, provisionally estimated. Gifts are voluntary.
+Through v0.1.1 and initial publication: **4 VBs / $400**, provisionally estimated
+as of November 1, 2026; contributor review pending. Gifts are voluntary.
 
 ## Verification
 
