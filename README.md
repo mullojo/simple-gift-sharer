@@ -1,5 +1,7 @@
 # Simple gift sharer · 0.1.1
 
+[![Checks](https://github.com/mullojo/simple-gift-sharer/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/mullojo/simple-gift-sharer/actions/workflows/checks.yml)
+
 A no-build, local-first Bitcoin gift-sharing experiment. A giver funds a fresh
 browser-generated address. That browser signs and broadcasts a second transaction
 which divides the received funds between 2–50 recipients. No backend, account,
@@ -7,6 +9,8 @@ cloud key, or connection to the giver's purse is required.
 
 **Start with Testnet4. Mainnet is implemented but this is an unaudited prototype.**
 
+[GitHub](https://github.com/mullojo/simple-gift-sharer) ·
+[Issues](https://github.com/mullojo/simple-gift-sharer/issues) ·
 MIT licensed · [License](LICENSE) · [Contributing](CONTRIBUTING.md) ·
 [Security model and reporting](SECURITY.md) · [Third-party software](THIRD_PARTY.md)
 
@@ -18,11 +22,17 @@ making this GitHub repository public.
 
 ## Try it
 
-From this directory:
+Clone the repository, then start a local static server:
 
 ```sh
+git clone https://github.com/mullojo/simple-gift-sharer.git
+cd simple-gift-sharer
 python3 -m http.server 4175
 ```
+
+Or use **File → Clone Repository → URL** in GitHub Desktop with the same repository
+URL, then open the cloned folder in VS Code and use Live Server. If you already
+have a local copy, keep using it; no second clone is needed.
 
 Open **http://localhost:4175**. No install or build is needed. Opening the HTML
 through `file://` cannot load local ES modules reliably and lacks the stable
@@ -138,7 +148,7 @@ promise settlement. Broadcast failures retain the signed transaction and key.
 If another transaction spends a selected input, automatic forwarding stops with
 an error instead of silently rebuilding. Keep recovery, inspect the explorer,
 and resolve that request before reusing funds. No automatic RBF/CPFP, changed-parent
-replanning, custom fee bump, or general recovery sweep is implemented in v0.1.0.
+replanning, custom fee bump, or general recovery sweep is implemented in this draft.
 Confirmed mode avoids starting a split from an unconfirmed parent but cannot avoid
 all reorganizations or fee changes.
 

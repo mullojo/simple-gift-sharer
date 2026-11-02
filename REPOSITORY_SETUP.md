@@ -1,7 +1,15 @@
-# Publish with GitHub Desktop
+# GitHub Desktop setup
 
-This folder is ready to become its own repository. Git initialization, commits,
-GitHub publication and settings are left to the maintainer in GitHub Desktop.
+The public upstream is https://github.com/mullojo/simple-gift-sharer.
+
+To work on the existing repository, use **File → Clone Repository → URL** in
+GitHub Desktop and paste that URL. If this folder is already connected to the
+upstream, continue using it and skip the creation/publishing steps below.
+Contributors can fork the repository on GitHub and clone their fork in Desktop.
+
+The following steps are for creating a separate repository from a source copy
+that does not already have Git history. Git initialization, commits, GitHub
+publication and settings are handled by the maintainer in GitHub Desktop.
 
 ## Create the local repository
 

@@ -11,5 +11,13 @@
     "node": ">=22"
   },
   "description": "No-build, local-first Bitcoin gift sharing with temporary browser purses",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mullojo/simple-gift-sharer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mullojo/simple-gift-sharer/issues"
+  },
+  "homepage": "https://github.com/mullojo/simple-gift-sharer#readme"
 }
